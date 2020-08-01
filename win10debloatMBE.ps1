@@ -43,6 +43,7 @@ $tweaks = @(
 	"InstallBitDefender",
 	"InstallGoogleDrive",
 	"InstallGeforce",
+	"InstallMSEdge",
 
 	### Windows Apps
 	"DebloatAll",
@@ -268,6 +269,11 @@ Function InstallGoogleDrive {
 Function InstallGeforce {
 	Write-Output "Installing Geforce-experience"
 	choco install geforce-experience -y
+}
+
+Function InstallMSEdge {
+	Write-Output "Installing Edge"
+	choco install microsoft-edge -y
 }
 
 	
