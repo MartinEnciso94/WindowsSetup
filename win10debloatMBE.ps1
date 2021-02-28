@@ -28,6 +28,8 @@
 $tweaks = @(
 	### Require administrator privileges ###
 	"RequireAdmin",
+	
+	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 
 	### Windows Apps
 	"DebloatAll",
@@ -175,7 +177,7 @@ $tweaks = @(
 	#"UnpinTaskbarIcons",
 
 	### External Program Setup
-	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!	
+		
 	"InstallFoxit",
 	"Install7Zip",
 	"InstallNotepadplusplus",
