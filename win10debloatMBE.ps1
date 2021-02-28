@@ -189,8 +189,8 @@ $tweaks = @(
 	#"InstallGoogleDrive",
 	"InstallGeforce",
 	"InstallMSEdge",
-	"InstallAirExplorer"
-	"InstallVLC"
+	"InstallAirExplorer",
+	"InstallVLC",
 
 	### Auxiliary Functions ###
 	"WaitForKey"
