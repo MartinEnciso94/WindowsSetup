@@ -278,7 +278,7 @@ Function InstallMSEdge {
 	choco install microsoft-edge -y
 }
 
-Function "InstallAirExplorer {
+Function InstallAirExplorer {
 	Write-Output "Installing Air Explorer"
 	choco install airexplorer -y
 }
