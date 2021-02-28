@@ -29,22 +29,6 @@ $tweaks = @(
 	### Require administrator privileges ###
 	"RequireAdmin",
 
-	### External Program Setup
-	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!	
-	"InstallFoxit",
-	"Install7Zip",
-	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
-	"InstallFirefox",
-	"InstallXDM",
-	"InstallqBittorrent",
-	"InstallJDownloader",
-	#"InstallNomacs",
-	"InstallBitDefender",
-	"InstallGoogleDrive",
-	"InstallGeforce",
-	"InstallMSEdge",
-
 	### Windows Apps
 	"DebloatAll",
 
@@ -190,6 +174,24 @@ $tweaks = @(
 	"UnpinStartMenuTiles",
 	#"UnpinTaskbarIcons",
 
+	### External Program Setup
+	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!	
+	"InstallFoxit",
+	"Install7Zip",
+	"InstallNotepadplusplus",
+	#"InstallMediaPlayerClassic",
+	"InstallFirefox",
+	"InstallXDM",
+	"InstallqBittorrent",
+	"InstallJDownloader",
+	#"InstallNomacs",
+	#"InstallBitDefender",
+	#"InstallGoogleDrive",
+	"InstallGeforce",
+	"InstallMSEdge",
+	"InstallAirExplorer"
+	"InstallVLC"
+
 	### Auxiliary Functions ###
 	"WaitForKey"
 	"Restart"
@@ -275,6 +277,18 @@ Function InstallMSEdge {
 	Write-Output "Installing Edge"
 	choco install microsoft-edge -y
 }
+
+Function "InstallAirExplorer {
+	Write-Output "Installing Air Explorer"
+	choco install airexplorer -y
+}
+
+Function InstallVLC {
+	Write-Output "Installing VLC"
+	choco install vlc -y
+}
+
+
 
 	
 
